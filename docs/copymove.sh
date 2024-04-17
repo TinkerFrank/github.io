@@ -4,7 +4,7 @@
 source_dir="/home/ubuntu/github.io/docs/build/html"
 
 # Destination directory
-destination_dir="/home/ubuntu/github.io/site"
+destination_dir="/home/ubuntu/github.io/"
 
 # Copy contents of source directory to destination directory
 cp -r $source_dir/* $destination_dir
