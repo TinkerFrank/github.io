@@ -1,17 +1,13 @@
-TinkerFrank
-=====================================
 
-Machine Learning, Entrepeneurship, 3D Printing, Soft and Hardware
 
+.. include:: /posts/helloworld.rst
+
+
+.. hidden toctree
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   :caption: Posts:
+   :hidden: 
+   
+   /posts/helloworld
+   about

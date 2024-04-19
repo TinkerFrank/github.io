@@ -10,13 +10,17 @@ project = 'TinkerFrank'
 copyright = '2024, TinkerFrank'
 author = 'Frank'
 release = '0.2'
+version = 'machine learning, cybersecurity, 3D printing, high performance networking'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
     'sphinx.ext.duration',
-    'sphinx_rtd_theme'
+    'sphinx_rtd_theme',
+    'sphinx_copybutton',
+    'sphinx_rtd_dark_mode',
+    'sphinx_design',
 ]
 
 templates_path = ['_templates']
@@ -31,7 +35,14 @@ exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = '_static/logo.png'  # Adjust the path according to your file location
+html_text = 'lalalla'
 
+# html_theme_options = {
+#     ...
+#     "repository_url": "https://github.com/{your-docs-url}",
+#     "use_repository_button": True,
+#     ...
+# }
 
 html_theme_options = {
     'logo_only': False,
@@ -50,3 +61,4 @@ html_context = {
     'github_repo': 'tinkerfrank.github.io',
     'github_version': 'main/docs/source/',
 }
+
