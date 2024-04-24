@@ -1,0 +1,5 @@
+RAG (retrieval augemented generation)
+*************************************
+
+This is a quick primer on retrieval augmented generation 
+

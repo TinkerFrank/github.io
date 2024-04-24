@@ -10,7 +10,7 @@ project = 'TinkerFrank'
 copyright = '2024, TinkerFrank'
 author = 'Frank'
 release = '0.2'
-version = 'machine learning, cybersecurity, 3D printing, high performance networking'
+version = 'Engineering | Machine Learning | Cybersecurity | Entrepeneurship'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -21,6 +21,7 @@ extensions = [
     'sphinx_copybutton',
     'sphinx_rtd_dark_mode',
     'sphinx_design',
+    'sphinxcontrib.video',
 ]
 
 templates_path = ['_templates']
@@ -34,8 +35,7 @@ exclude_patterns = []
 #html_theme = 'furo'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_logo = '_static/logo.png'  # Adjust the path according to your file location
-html_text = 'lalalla'
+html_logo = '_static/logo.png'  # Adjust the path according to your file locationsphin
 
 # html_theme_options = {
 #     ...

@@ -1,6 +1,6 @@
+.. update to show the latest post 
 
-
-.. include:: /posts/helloworld.rst
+.. include:: /posts/rag.rst
 
 
 .. hidden toctree
@@ -9,5 +9,13 @@
    :caption: Posts:
    :hidden: 
    
+   /posts/rag
    /posts/helloworld
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: -------
+   :hidden: 
+   
    about

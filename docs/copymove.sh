@@ -1,5 +1,8 @@
 #!/bin/bash
-
+make clean
+wait
+make html
+wait
 # Source directory
 source_dir="/home/ubuntu/github.io/docs/build/html"
 

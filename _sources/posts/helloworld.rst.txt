@@ -5,13 +5,15 @@ Hello World
 Hello World!
 
 
-A paragraph containing only two colons indicates
-the following indented or quoted text is a literal
-block or quoted text is a literal block.
+Block quotes are just:
 
+    Indented paragraphs,
+
+        and they may nest.
+        
 ::
 
-  Whitespace, newlines, blank lines, and  all kinds of
+  Whitespace, newlines, blank lines, and all kinds of
   markup (like *this* or \this) is preserved here.
 
 You can also tack the ``::`` at the end of a
