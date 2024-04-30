@@ -1,21 +1,17 @@
-.. update to show the latest post 
+.. note::
+   this site is under development
 
-.. include:: /posts/rag.rst
+Latest Post:
+------------
 
-
-.. hidden toctree
-.. toctree::
-   :maxdepth: 2
-   :caption: Posts:
-   :hidden: 
-   
-   /posts/rag
-   /posts/helloworld
+.. change to the latest post
+.. include::   /posts/rag.rst
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: -------
-   :hidden: 
-   
+   :hidden:
+
+   /posts/mainposts
    about
+

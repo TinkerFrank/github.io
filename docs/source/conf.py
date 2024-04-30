@@ -48,10 +48,12 @@ html_theme_options = {
     'logo_only': False,
     # Toc options
     'collapse_navigation': True,
+    'globaltoc_collapse': True,
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
     'titles_only': False,
+
 }
 
 # File-wide metadata
