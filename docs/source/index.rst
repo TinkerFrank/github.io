@@ -13,5 +13,6 @@ Latest Post:
    :hidden:
 
    /posts/mainposts
+   /certs/certs
    about
 
